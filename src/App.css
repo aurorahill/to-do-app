@@ -1,0 +1,26 @@
+.app {
+  display: grid;
+  grid-template-rows: 100px 300px auto;
+}
+
+.app__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .app__main {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

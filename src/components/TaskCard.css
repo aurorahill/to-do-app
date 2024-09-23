@@ -1,0 +1,52 @@
+.task__card {
+  padding: 15px;
+  margin: 15px 0;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.task__text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.task__card-bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task__icons {
+  display: flex;
+}
+.task__delete,
+.task__edit {
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.task__delete:hover,
+.task__edit:hover {
+  background-color: #ebebeb;
+}
+
+.task__delete-icon,
+.task__edit-icon {
+  width: 20px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.task__delete:hover .task__delete-icon,
+.task__edit:hover .task__edit-icon {
+  opacity: 80%;
+}

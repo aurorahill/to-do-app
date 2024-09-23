@@ -1,0 +1,20 @@
+.task__column {
+  margin: 20px auto;
+  width: 90%;
+}
+.task__column-heading {
+  display: flex;
+  align-items: center;
+}
+
+.task__column-icon {
+  width: 30px;
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .task__column {
+    margin: 20px 0;
+    width: 31%;
+  }
+}
