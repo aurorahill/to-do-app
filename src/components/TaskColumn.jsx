@@ -12,7 +12,7 @@ const TaskColumn = ({
 }) => {
   const taskArray = tasks
     .filter((task) =>
-      task.task.toLowerCase().includes(searchResults.toLowerCase())
+      task.task.toLowerCase().includes(searchResults.toString().toLowerCase())
     )
     .map(
       (task, index) =>
