@@ -11,7 +11,9 @@ const TaskColumn = ({
   searchResults,
 }) => {
   const taskArray = tasks
-    .filter((task) => task.task.toLowerCase().includes(searchResults))
+    .filter((task) =>
+      task.task.toLowerCase().includes(searchResults.toLowerCase())
+    )
     .map(
       (task, index) =>
         task.status === status && (

@@ -26,6 +26,7 @@ const TaskCard = ({ title, tags, handleDelete, index, handleEdit }) => {
               src={editIcon}
               alt="Edit icon"
               className="task__edit-icon"
+              title="Edit"
             />
           </div>
           <div
@@ -36,6 +37,7 @@ const TaskCard = ({ title, tags, handleDelete, index, handleEdit }) => {
               src={deleteIcon}
               alt="Delete icon"
               className="task__delete-icon"
+              title="Delete"
             />
           </div>
         </div>

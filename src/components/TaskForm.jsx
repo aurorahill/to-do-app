@@ -93,24 +93,24 @@ const TaskForm = ({
         <div className="header__task-form-bottom-line">
           <div className="header__task-wrapper">
             <Tag
-              tagName="HTML"
+              tagName="Home"
               selectTag={selectTag}
-              selected={checkTag('HTML')}
+              selected={checkTag('Home')}
             />
             <Tag
-              tagName="CSS"
+              tagName="Work"
               selectTag={selectTag}
-              selected={checkTag('CSS')}
+              selected={checkTag('Work')}
             />
             <Tag
-              tagName="JavaScript"
+              tagName="School"
               selectTag={selectTag}
-              selected={checkTag('JavaScript')}
+              selected={checkTag('School')}
             />
             <Tag
-              tagName="React"
+              tagName="Other"
               selectTag={selectTag}
-              selected={checkTag('React')}
+              selected={checkTag('Other')}
             />
           </div>
 

@@ -23,7 +23,7 @@ const App = () => {
   }, [tasks]);
 
   const handleDelete = (taskIndex) => {
-    if (confirm('Are you sure?')) {
+    if (confirm('Are you sure you want to delete this task?')) {
       const newTasks = tasks.filter((task, index) => index !== taskIndex);
       setTasks(newTasks);
     }
